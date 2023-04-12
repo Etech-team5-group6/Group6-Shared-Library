@@ -4,7 +4,7 @@ def call(String repoUrl){
   stages{
     stage('1-clone'){
       steps{
-        sh 'action1'
+        sh 'ls'
       }
     }
     stage('2-parallel-job'){
